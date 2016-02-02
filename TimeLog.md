@@ -28,7 +28,10 @@
 | 1/31/16 | Forked and cloned jUnit and Log4J Exercises  - Week 2 | .25 | |
 | 1/31/16 | Work on time log entry | .75 | |
 | 2/01/16 | Downloaded "Lovely Charts" to create wireframe for You Deserve Better Today website | .25 | |
-| 2/01/16 | Worked on Week 2 Exercise 1 | 1.25 | |
+| 2/01/16 | Installed Visio 2013 to create wireframe for You Deserve Better Today website | .5 |I didn't like "Lovely Charts" wireframing capabilities |
+| 2/01/16 | Worked on Week 2 Exercise 1 coding exercises with junit tests and log4j| 1.25 | |
+| 2/02/16 | Completed Week 2 Exercise 1 coding exercises with junit tests and log4j| 2 | Struggled with contrive consepts of List and Map tests RESOLVE: Savannah tutored me on tests using the santaInAnElevator "live" code instead!
+| 2/02/16 | Finished Home Page Wireframe for You Deserve Better Today website | .5 | |
 
 
 
