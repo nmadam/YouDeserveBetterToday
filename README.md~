@@ -1,0 +1,42 @@
+# YouDeserveBetterToday
+
+This repository is for the Individual Project for Enterprise Java Spring 2016
+
+### Problem Statement
+
+
+
+### Project Technologies/Techniques
+
+* Security/Authentication
+    * Admin Role:
+    * User Role:
+    * All:
+* Database (MySQL)
+    * Store users and roles
+    * Store customers
+    * Store inventory
+* Web Services or APIs
+* WordPress?
+* Logging
+* Site and database hosted on HostMonster
+* ? for continuous integration
+* Unit Testing
+    * JUnit tests to achieve 80% of code average ?
+* Independent Research Topic
+    * TBD
+
+
+### Design
+
+* Application Flow - link coming soon
+* Screen Design - link coming soon
+* Database Design - link coming soon
+
+### [Project Plan](ProjectPlan.md)
+
+
+### [Development Journal](Journal.md)
+
+
+
