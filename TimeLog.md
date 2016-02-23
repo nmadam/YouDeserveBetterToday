@@ -30,8 +30,45 @@
 | 2/01/16 | Downloaded "Lovely Charts" to create wireframe for You Deserve Better Today website | .25 | |
 | 2/01/16 | Installed Visio 2013 to create wireframe for You Deserve Better Today website | .5 |I didn't like "Lovely Charts" wireframing capabilities |
 | 2/01/16 | Worked on Week 2 Exercise 1 coding exercises with junit tests and log4j| 1.25 | |
-| 2/02/16 | Completed Week 2 Exercise 1 coding exercises with junit tests and log4j| 2 | Struggled with contrive consepts of List and Map tests RESOLVE: Savannah tutored me on tests using the santaInAnElevator "live" code instead!
+| 2/02/16 | Completed Week 2 Exercise 1 coding exercises with junit tests and log4j| 2 | Struggled with contrive concepts of List and Map tests RESOLVE: Savannah tutored me on tests using the santaInAnElevator "live" code instead!
 | 2/02/16 | Finished Home Page Wireframe for You Deserve Better Today website | .5 | |
+
+
+# Week 3
+| Date | Task | Hours | Notes|
+|------|------|-------|------|
+| 02/03/16 | Attended additional night class for more exposure to DOA and Hibernate | 4 | Not sure if this should be counted towards hours|
+| 02/04/16 | Activity 2 - Create A Sample Database | .5 | Had to re-install MySQL|
+| 02/04/16 | Activity 3 - Database Tools in IntelliJ | .5 | |
+| 02/04/16 | Activity 4 - Add MySQL and phpMyAdmin to Openshift | .5 | |
+| 02/04/16 | Activity 5 - Add the MySQL Driver to your IntelliJ global library | .25 | |
+| 02/09/16 | Exercise Part 1 and 2 Create a database and at least one table for your project & Configure your project for hibernate (add jars and config files) | .5 | |
+| 02/09/16 | Complete Week 3 Time Entry Log | .5 | |
+
+# Week 4
+| Date | Task | Hours | Notes|
+|------|------|-------|------|
+| 02/10/16 | Prep You Deserve Better Today website for Activity 1 - Design/Code Review | 1.5 | |
+| 02/16/16 | Activity 1 - Design/Code Review - Give feedback to Jacob and Jason on their individual projects | 1.25 | |
+| 02/16/16 | Finished design and created database and tables for my individual project based on code reviews! | 1.0 | |
+| 02/16/16 | Created first javabeans for my individual project based on newly created tables for my project's database | .5 | |
+| 02/16/16 | Complete Week 4 Time Entry Log | .25 | |
+
+# Week 5
+| Date | Task | Hours | Notes|
+|------|------|-------|------|
+| 02/18/16 | Created tables in my individual project application's database to hold user and role information | .75 | |
+| 02/18/16 | Set up Tomcat to use JDBCRealm with individual project's newly created tables | .5 | | |
+| 02/22/16 | Added a admin.jsp, display.jsp, failedLogin.jsp, login.jsp to my individual project web application | .75 | |
+| 02/22/16 | Updated my individual application web.xml to specify the appropriate security constraints | .25 | |
+| 02/22/16 | Read tutorials regarding SOAP (Simple Object Access Protocol), UDDI (Universal Description, Discovery and Integration), WSDL (Web Services Description Language) | 1.0 | |
+| 02/22/16 | Deleted previously created javabeans then RE-CREATED beans to match updated database model | .75 | |
+| 02/16/16 | Complete Week 5 Time Entry Log | .25 | |
+
+
+
+
+
 
 
 
