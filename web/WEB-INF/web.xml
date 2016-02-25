@@ -8,19 +8,17 @@
     <login-config>
         <auth-method>FORM</auth-method>
         <form-login-config>
-            <form-login-page>/admin/login.jsp</form-login-page>
-            <form-error-page>/admin/login-error.jsp</form-error-page>
+            <form-login-page>/login.jsp</form-login-page>
+            <form-error-page>/failedLogin.jsp</form-error-page>
         </form-login-config>
     </login-config>
 
-    <!-- THIS SECTION DOES NOT WORK!
-    <security-constraint>
+        <security-constraint>
         <web-resource-collection>
-            <web-resource-name>investing</web-resource-name>
-            <url-pattern>/investing/*</url-pattern>
+            <web-resource-name>admin</web-resource-name>
+            <url-pattern>/admin.jsp</url-pattern>
         </web-resource-collection>
         <auth-constraint>
-            <role-name>registered-user</role-name>
             <role-name>administrator</role-name>
         </auth-constraint>
     </security-constraint> -->

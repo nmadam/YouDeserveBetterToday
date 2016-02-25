@@ -63,7 +63,12 @@
 | 02/22/16 | Updated my individual application web.xml to specify the appropriate security constraints | .25 | |
 | 02/22/16 | Read tutorials regarding SOAP (Simple Object Access Protocol), UDDI (Universal Description, Discovery and Integration), WSDL (Web Services Description Language) | 1.0 | |
 | 02/22/16 | Deleted previously created javabeans then RE-CREATED beans to match updated database model | .75 | |
-| 02/16/16 | Complete Week 5 Time Entry Log | .25 | |
+| 02/22/16 | Complete Week 5 Time Entry Log | .25 | |
+
+# Week 6
+| Date | Task | Hours | Notes|
+|------|------|-------|------|
+| 02/24/16 | | 1.0 | |
 
 
 
