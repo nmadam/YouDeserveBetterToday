@@ -7,12 +7,13 @@ import org.apache.log4j.*;
 
 /**
  * This class provides a connection to the database.
- * Created by nancyadam on 2/28/16.
+ * @author nancyadam
+ * @version 1.0 2/28/16.
  */
 public class Database {
 
     // create an object of the class Database
-    private static Database instance = new Database();
+    private static final Database instance = new Database();
 
     private Connection connection;
 

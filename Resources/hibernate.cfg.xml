@@ -19,7 +19,7 @@
         <property name="connection.password">
             admin
         </property>
-        <mapping resource="Employee.hbm.xml" />
+        <mapping resource="Users.hbm.xml" />
         <mapping class="com.nancyadam.ydbt.entity.Users" />
     </session-factory>
 

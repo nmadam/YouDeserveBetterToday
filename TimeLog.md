@@ -8,7 +8,7 @@
 | 1/23/16 | Installed IntelliJ IDEA Ultimate, TomEE+, MySQL Server | 2 | |
 | 1/23/16 | Troubleshoot the actual "setup" of my environment | 5 | |
 | 1/24/16 | Continue troubleshooting the actual "setup" of my environment to get all applications working properly on the new Windows 10 platform | 5 | |
-| 1/25/16 | Completed Week 1 Activity 2 by updating the Extracurricular activites Ideas.md to include the SQLSaturday event  | .5 | |
+| 1/25/16 | Completed Week 1 Activity 2 by updating the Extracurricular activities Ideas.md to include the SQLSaturday event  | .5 | |
 | 1/25/16 | Completed Week 1 Activity 3 by creating my individual project repository "YouDeserveBetterToday", also created outline for problem statement in the readme.md file  | 1 | |
 | 1/25/16 | Completed Week 1 Activity 4 - First Program in IntelliJ IDEA  | 1 | |
 | 1/25/16 | Completed Week 1 Activity 5 - First Java EE Application in IntelliJ IDEA. | 1.5 |Struggled with not being able to get TomEE to update with changes. RESOLVE:  Restart TomEE to update server with changes   |
@@ -18,8 +18,8 @@
 # Week 2
 | Date | Task | Hours | Notes|
 |------|------|-------|------|
-| 1/26/16 | Completed Part of Week 2 Activity 4 - Set up Openshift. 2. Install the command-line client tools. | .25 | RESOLVE: Unistalled version 2.2 of Ruby. Installed version 1.93|
-| 1/27/16 | Completed Week 2 Activity 2 - Git and IntelliJ | 3 | Struglled with installing .gitignore into the correct path RESOLVE: Turn off git plug-in |
+| 1/26/16 | Completed Part of Week 2 Activity 4 - Set up Openshift. 2. Install the command-line client tools. | .25 | RESOLVE: Uninstalled version 2.2 of Ruby. Installed version 1.93|
+| 1/27/16 | Completed Week 2 Activity 2 - Git and IntelliJ | 3 | Struggled with installing .gitignore into the correct path RESOLVE: Turn off git plug-in |
 | 1/31/16 | Completed Part of Week 2 Activity 4 - Set up Openshift. 3. Create a DIY application: rhc app create tomcat diy-0.1 | 1.25 |Struggled with not having tomcat installed locally RESOLVE: ran git clone: ssh://56ae750c7628e14d890000c3@tomcat-nancymadjava.rhcloud.com/~/git/tomcat.git/ "IMPORTANT to grab url starting with ssh://!" |
 | 1/31/16 | Completed Week 2 Activity 4 - Set up Openshift. 3. Grab this quickstart project and make it work for you! | 2.5 |Struggled with the "git pull -s recursive -X theirs upstream master" erroring out ERROR: can't find a DLL called cygwin RESOLVE: Reboot computer to "create the environment variable to be able to use the git commands" |
 | 1/31/16 | Completed Week 2 Activity 3 - Logging | 1 |Struggled with the logging error being produced by the HelloWorld class "LoggingExample" RESOLVE: "logger.setLevel(Level.WARN);" the keyword WARN has to be capitalized! |
@@ -68,7 +68,13 @@
 # Week 6
 | Date | Task | Hours | Notes|
 |------|------|-------|------|
-| 02/24/16 | | 1.0 | |
+| 02/23/16 | Completed Activity 2 - Create Your First Web Service Client in IntelliJ - Struggled with adding file to JDK directory in Windows 10| 1.25 | RESOLVE: Activated Administrator account in Windows 10|
+| 02/24/16 | Created documentation on activating Windows 10 administrator account| .75 | |
+| 02/24/16 | Completed Activity 3 - Create Your First Web Service in IntelliJ - Struggled with concept of "web" provided vs. "user" provided web service| 1.25 | RESOLVE: Paula drew out the web services relationship on the white board!|
+| 02/28/16 | Provided feedback to Savannah and Connor regarding their presentations| .5 | |
+| 02/28/16 | Commited TempConversion3 Project to my repository - struggled with using VCS in IntelliJIDEA | .75 | RESOLVE: added .gitignore file but still not struggling with this feature in both this and individual project |
+| 02/28/16 | Re-created Daos and hibernate configuration files in my individual project - Struggling with SessionFactoryProvider file!| 5 | RESOLVE: NONE YET! Have ran several "diagnostics" and still receiving "mapping" error since this file was not originally created as a "class" file. Will not allow me to delete it and re-create it as a "class file"!!|
+| 02/28/16 | Completed Week 6 Time Entry Log | .25 | |
 
 
 

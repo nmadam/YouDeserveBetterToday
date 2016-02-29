@@ -4,7 +4,7 @@ This repository is for the Individual Project for Enterprise Java Spring 2016
 
 ### Problem Statement
 
-Create a website application for my friend to promote the new book she is writing, "You Deserve Better" under the psuedoname CJ Laclove.
+Create a website application for my friend to promote the new book she is writing, "You Deserve Better" under the pseudoname CJ Laclove.
 This website will contain a home page with a link to a form for the user to input their contact information with emphasis on 
 email addresses. This data will be stored in a MySql database. The application will generate a "welcome" email to the new user.
 

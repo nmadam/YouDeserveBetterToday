@@ -49,8 +49,6 @@ public class UsersDoaWithSql implements UsersDoa {
         } catch (Exception e) {
             log.error(e);
         }
-
-
         return users;
     }
 
@@ -65,9 +63,7 @@ public class UsersDoaWithSql implements UsersDoa {
     }
 
     @Override
-    public int addUser(Users user) {
-        return 0;
-    }
+    public int addUser(Users user) {return 0;}
 
     private Users createUserFromResults(ResultSet results) throws SQLException {
         Users user = new Users();
@@ -76,6 +72,7 @@ public class UsersDoaWithSql implements UsersDoa {
         user.setLastName(results.getString("last_name"));
         user.setUserPass(results.getString("user_pass"));
         user.setEmail(results.getString("email"));
+
         return user;
     }
 }

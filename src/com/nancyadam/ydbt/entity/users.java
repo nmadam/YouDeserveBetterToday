@@ -1,7 +1,8 @@
 package com.nancyadam.ydbt.entity;
 
 /**
- * Created by Nancy on 2/22/2016.
+ * @author nancyadam
+ * @version 1.0 2/28/2016
  */
 public class Users {
     private String userId;
@@ -27,7 +28,7 @@ public class Users {
         return userId;
     }
 
-    public void setUserId(String userId) {
+    public void setUserId(int userId) {
         this.userId = userId;
     }
 
