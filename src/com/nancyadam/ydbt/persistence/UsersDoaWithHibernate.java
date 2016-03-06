@@ -34,7 +34,7 @@ public class UsersDoaWithHibernate implements UsersDoa {
     @Override
     public int addUser(Users user) {
 
-        Session session = SessionFactoryProvider.getSessionFactory().openSession();
+        Session session = SessionFactoryProvider1.getSessionFactory().openSession();
         Transaction tx = null;
         Integer userId = null;
         try {

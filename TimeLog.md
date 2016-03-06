@@ -71,13 +71,24 @@
 | 02/23/16 | Completed Activity 2 - Create Your First Web Service Client in IntelliJ - Struggled with adding file to JDK directory in Windows 10| 1.25 | RESOLVE: Activated Administrator account in Windows 10|
 | 02/24/16 | Created documentation on activating Windows 10 administrator account| .75 | |
 | 02/24/16 | Completed Activity 3 - Create Your First Web Service in IntelliJ - Struggled with concept of "web" provided vs. "user" provided web service| 1.25 | RESOLVE: Paula drew out the web services relationship on the white board!|
+| 02/25/16 | Researched Bootstrap for extracurricular project | 1.25 | |
 | 02/28/16 | Provided feedback to Savannah and Connor regarding their presentations| .5 | |
-| 02/28/16 | Commited TempConversion3 Project to my repository - struggled with using VCS in IntelliJIDEA | .75 | RESOLVE: added .gitignore file but still not struggling with this feature in both this and individual project |
+| 02/28/16 | Commited TempConversion3 Project to my repository - struggled with using VCS in IntelliJIDEA | .75 | RESOLVE: added .gitignore file but still sruggling with this feature in both this and individual project |
 | 02/28/16 | Re-created Daos and hibernate configuration files in my individual project - Struggling with SessionFactoryProvider file!| 5 | RESOLVE: NONE YET! Have ran several "diagnostics" and still receiving "mapping" error since this file was not originally created as a "class" file. Will not allow me to delete it and re-create it as a "class file"!!|
 | 02/28/16 | Completed Week 6 Time Entry Log | .25 | |
 
-
-
+# Week 7
+| Date | Task | Hours | Notes|
+|------|------|-------|------|
+| 03/01/16 | Researched Bootstrap for my extracurricular project| 1.00 | |
+| 03/02/16 | Created Bootstrap presentation and source code and practiced presentation | 4.5 | |
+| 03/03/16 | Activity 2 - Create and Test Your First RESTful Web Service in IntelliJ | 1 | Stuggled with all of it and still stuck on artifacts|
+| 03/03/16 | Researched ideas for web service for group project | .5 | |
+| 03/06/16 | Added team to GitHub team repository | .25 | |
+| 03/06/16 | Added Dao tests to individual project | 1.0 |Stuggling with UsersDoaWithHibernateTest - NullPointer Exception on return of UserId in UsersDoaWithHibernate.java |
+| 03/06/16 | Upadated all journal entries and the project plan to You Deserve Better Today |1.25 | |
+| 03/06/16 | Activity 2 - Create and Test Your First RESTful Web Service in IntelliJ | | |
+| 03/08/16 | Meet with Bookworms to complete Activity 3 - Create and Test Your second RESTful Web Service in IntelliJ | | |
 
 
 
