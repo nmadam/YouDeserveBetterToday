@@ -37,11 +37,12 @@ public class UsersDoaWithHibernateTest {
         int insertedUserId = 0;
         //create user to add
         Users user = new Users();
+        user.setUserName("nmadam");
         user.setFirstName("Nancy");
         user.setLastName("Meister");
         user.setEmail("nm.meister@hotmail.com");
         user.setUserPass("hello");
-        user.setUserId(0);
+
 
         insertedUserId = doa.addUser(user);
 

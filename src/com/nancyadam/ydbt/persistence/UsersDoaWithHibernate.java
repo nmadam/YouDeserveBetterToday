@@ -13,7 +13,7 @@ import java.util.List;
  * @version 1.0 2/28/2016
  */
 public class UsersDoaWithHibernate implements UsersDoa {
-    private final Logger log = Logger.getLogger(this.getClass());
+   // private final Logger log = Logger.getLogger(this.getClass());
 
     @Override
     public List<Users> getAllUsers() {
@@ -36,15 +36,15 @@ public class UsersDoaWithHibernate implements UsersDoa {
 
         Session session = SessionFactoryProvider1.getSessionFactory().openSession();
         Transaction tx = null;
-        Integer userId = null;
+        Integer userId = 0;
         try {
             tx = session.beginTransaction();
-            userId = (Integer) session.save(user);
-            tx.commit();
-            log.info("Added user: " + user + " with id of: " + userId);
+            userId = (Integer) session.save("Users", user);
+//            tx.commit();
+            //log.info("Added user: " + user + " with id of: " + userId);
         } catch (HibernateException e) {
             if (tx!=null) tx.rollback();
-            log.error(e);
+            e.printStackTrace();
         } finally {
             session.close();
         }

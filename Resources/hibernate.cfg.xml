@@ -8,7 +8,7 @@
             org.hibernate.dialect.MySQL5Dialect
         </property>
         <property name="connection.url">
-            jdbc:mysql://localhost:local3306/youdeservebettertoday
+            jdbc:mysql://localhost:3306/youdeservebettertoday
         </property>
         <property name="connection.driver_class">
             com.mysql.jdbc.Driver
@@ -21,6 +21,9 @@
         </property>
         <mapping resource="Users.hbm.xml" />
         <mapping class="com.nancyadam.ydbt.entity.Users" />
+        <mapping resource="Books.hbm.xml" />
+        <mapping class="com.nancyadam.ydbt.entity.Books" />
+
     </session-factory>
 
 </hibernate-configuration>
