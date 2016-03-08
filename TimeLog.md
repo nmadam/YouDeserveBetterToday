@@ -87,8 +87,10 @@
 | 03/06/16 | Added team to GitHub team repository | .25 | |
 | 03/06/16 | Added Dao tests to individual project | 1.0 |Stuggling with UsersDoaWithHibernateTest - NullPointer Exception on return of UserId in UsersDoaWithHibernate.java |
 | 03/06/16 | Upadated all journal entries and the project plan to You Deserve Better Today |1.25 | |
-| 03/06/16 | Activity 2 - Create and Test Your First RESTful Web Service in IntelliJ | | |
-| 03/08/16 | Meet with Bookworms to complete Activity 3 - Create and Test Your second RESTful Web Service in IntelliJ | | |
+| 03/06/16 | Provided feedback to Vlad and Naivi regarding their presentations| .5 | |
+| 03/06/16 | Activity 2 - Create and Test Your First RESTful Web Service in IntelliJ |.5 | RESOLVE: Savannah tutored me |
+| 03/08/16 | Meet with Bookworms to complete the problem statement, begin the project plan and complete this week's journal entry |.75 | |
+| 03/08/16 | Meet with Bookworms to complete Activity 3 - Create and Test Your second RESTful Web Service in IntelliJ | 1 | |
 
 
 

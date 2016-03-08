@@ -68,7 +68,7 @@ Struggling with SessionFactoryProvider file! Still trying to fully understand ho
 
 ### Week 7
 
-2/22/2016 
+2/29/2016 
 
 Tasks Completed:
 
