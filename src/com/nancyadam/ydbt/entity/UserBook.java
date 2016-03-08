@@ -7,7 +7,7 @@ public class UserBook {
     private int userBookId;
     private int userId;
     private String rating;
-    private String text;
+    private String comment;
 
     public UserBook() {
     }
@@ -16,7 +16,7 @@ public class UserBook {
         this.userBookId = userBookId;
         this.userId = userId;
         this.rating = rating;
-        this.text = text;
+        this.comment = text;
     }
 
     public int getUserBookId() {
@@ -43,11 +43,11 @@ public class UserBook {
         this.rating = rating;
     }
 
-    public String getText() {
-        return text;
+    public String getComment() {
+        return comment;
     }
 
-    public void setText(String text) {
-        this.text = text;
+    public void setComment(String comment) {
+        this.comment = comment;
     }
 }

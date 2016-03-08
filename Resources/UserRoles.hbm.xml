@@ -4,13 +4,13 @@
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-    <class name="com.nancyadam.ydbt.entity.Books" table="books">
+    <class name="com.nancyadam.ydbt.entity.UserRoles" table="user_roles">
         <meta attribute="class-description">
-            This class contains the book information.
+            This class contains the user roles.
         </meta>
-        <id name="bookId" type="int" column="book_id">
+        <id name="userName" type="java.lang.String" column="user_name">
             <generator class="native"/>
         </id>
-        <property name="bookTitle" column="book_title" type="string"/>
+        <property name="roleName" column="role_name" type="string"/>
     </class>
 </hibernate-mapping>
