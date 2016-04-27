@@ -7,9 +7,9 @@
 --%>
 <%@ page contentType="comment/html;charset=UTF-8" language="java" %>
 <html>
-<head>
-  <title>Form-Based Authentication Example</title>
-</head>
+
+  <c:import url="head-tag.jsp"/>
+
 <body>
 <ul>
   <li><a href="admin.jsp">Take me to the Admin Page</a></li>
