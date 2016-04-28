@@ -4,7 +4,7 @@ package com.nancyadam.ydbt.entity;
  * Created by Nancy on 2/22/2016.
  */
 public class UserBook {
-    private int userBookId;
+    private int bookId;
     private int userId;
     private String rating;
     private String comment;
@@ -12,19 +12,19 @@ public class UserBook {
     public UserBook() {
     }
 
-    public UserBook(int userBookId, int userId, String rating, String text) {
-        this.userBookId = userBookId;
+    public UserBook(int bookId, int userId, String rating, String text) {
+        this.bookId = bookId;
         this.userId = userId;
         this.rating = rating;
         this.comment = text;
     }
 
-    public int getUserBookId() {
-        return userBookId;
+    public int getBookId() {
+        return bookId;
     }
 
-    public void setUserBookId(int userBookId) {
-        this.userBookId = userBookId;
+    public void setBookId(int bookId) {
+        this.bookId = bookId;
     }
 
     public int getUserId() {

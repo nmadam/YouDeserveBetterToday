@@ -8,10 +8,10 @@
         <meta attribute="class-description">
             This class contains the user detail.
         </meta>
-        <id name="userBookId" type="int" column="user_book_id">
-            <generator class="native"/>
-        </id>
-        <property name="userId" column="user_id" type="int"/>
+        <composite-id mapped="true" class="com.nancyadam.ydbt.entity.UserBook">
+            <key-property name="bookId" column="book_id" />
+            <key-property name="userId" column="user_id" />
+        </composite-id>
         <property name="rating" column="rating" type="string"/>
         <property name="comment" column="last_name" type="string"/>
     </class>

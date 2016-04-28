@@ -8,9 +8,9 @@
         <meta attribute="class-description">
             This class contains the user roles.
         </meta>
-        <id name="userName" type="java.lang.String" column="user_name">
-            <generator class="native"/>
-        </id>
-        <property name="roleName" column="role_name" type="string"/>
+        <composite-id mapped="true" class="com.nancyadam.ydbt.entity.UserRoles">
+            <key-property name="userName" column="user_name" />
+            <key-property name="roleName" column="role_name" />
+        </composite-id>
     </class>
 </hibernate-mapping>
