@@ -1,17 +1,20 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Nancy
-  Date: 2/22/2016
-  Time: 9:33 PM
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="comment/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
+<c:import url="head-tag.jsp"/>
+
 <html>
 <head>
     <title>Uh-Oh</title>
 </head>
-<>
-Invalid userid/password combination. <br />
-<a href="login.jsp">Try again</a>
+<body>
+    <c:import url="navbar.jsp"/>
+
+    <div class="container">
+    <br /><br /><br />
+        Invalid userid/password combination. <br />
+        <a href="login.jsp">Try again</a>
+    </div>
 </body>
+    <c:import url="footer.jsp"/>
 </html>

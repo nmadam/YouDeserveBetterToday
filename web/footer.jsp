@@ -1,5 +1,5 @@
 <nav class="navbar-fixed-bottom">
     <ul>
-        <li><a>hi</a></li>
+        <li><a>Copyright 2016</a></li>
     </ul>
 </nav>
