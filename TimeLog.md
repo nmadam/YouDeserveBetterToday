@@ -89,16 +89,32 @@
 | 03/06/16 | Upadated all journal entries and the project plan to You Deserve Better Today |1.25 | |
 | 03/06/16 | Provided feedback to Vlad and Naivi regarding their presentations| .5 | |
 | 03/06/16 | Activity 2 - Create and Test Your First RESTful Web Service in IntelliJ |.5 | RESOLVE: Savannah tutored me |
-| 03/08/16 | Meet with Bookworms to complete the problem statement, begin the project plan and complete this week's journal entry |.75 | |
-| 03/08/16 | Meet with Bookworms to complete Activity 3 - Create and Test Your second RESTful Web Service in IntelliJ | 1 | |
+
+
 
 # Week 8
+| Date | Task | Hours | Notes|
+|------|------|-------|------|
+| 03/08/16 | Met with Bookworms to complete Activity 3 - Create and Test Your second RESTful Web Service in IntelliJ | 1 | |
+| 03/08/16 | Met with Bookworms to complete the problem statement, begin the project plan and complete this week's journal entry |.75 | |
 
 
+# Spring Break
 
+# Week 9
+| Date | Task | Hours | Notes|
+|------|------|-------|------|
+| 03/23/16 | Completed - EXERCISE: Second Custom Tag Lib | 1 | |
+| 03/22/16 | Met with Bookworms to discuss progress on assigned objectives from week 8 | .75 | |
+| 03/24/16 | Converted XML to beans using the JAXB unmarshaller for the Bookworms Group Project | 1.5 | Struggled with XML data having verification issues. RESOLVE: Used IntelliJ to validate the XML data.|
+| 03/24/16 | Updated the Bookworms project plan and readme file | .5 | |
+| 03/24/16 | Created the application flow file with Savannah for the Bookworms group project| .5 | |
 
-
-
+# Week 10
+| Date | Task | Hours | Notes|
+|------|------|-------|------|
+| 03/28/16 | Completed - EXERCISE: Multithreading exercise following the instructions in the readme of this repository | 1 | |
+| 03/31/16 | Deployed the Bookworms service to OpenShift with Savannah | .5 | |
 
 
 
