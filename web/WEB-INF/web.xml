@@ -21,7 +21,7 @@
         <auth-constraint>
             <role-name>administrator</role-name>
         </auth-constraint>
-    </security-constraint> -->
+    </security-constraint>
 
     <!-- Protect everything within the "investing" directory. -->
 
