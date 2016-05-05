@@ -92,6 +92,7 @@
 | 03/08/16 | Meet with Bookworms to complete the problem statement, begin the project plan and complete this week's journal entry |.75 | |
 | 03/08/16 | Meet with Bookworms to complete Activity 3 - Create and Test Your second RESTful Web Service in IntelliJ | 1 | |
 
+# Week 8
 
 
 
