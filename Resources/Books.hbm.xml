@@ -4,7 +4,7 @@
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-    <class name="com.nancyadam.ydbt.entity.Books" table="books">
+    <class name="com.nancyadam.ydbt.entity.Book" table="books">
         <meta attribute="class-description">
             This class contains the book information.
         </meta>

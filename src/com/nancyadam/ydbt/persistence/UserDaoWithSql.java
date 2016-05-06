@@ -1,6 +1,6 @@
 package com.nancyadam.ydbt.persistence;
 
-import com.nancyadam.ydbt.entity.Users;
+import com.nancyadam.ydbt.entity.User;
 import org.apache.log4j.Logger;
 
 import java.sql.Connection;
@@ -14,12 +14,12 @@ import java.util.List;
  * @author nancyadam
  * @version 1.0 2/28/2016
  */
-public class UsersDoaWithSql implements UsersDoa {
+public class UserDaoWithSql implements UserDao {
     private final Logger log = Logger.getLogger(this.getClass());
 
     @Override
-    public List<Users> getAllUsers() {
-        List<Users> users = new ArrayList<Users>();
+    public List<User> getAllUsers() {
+        List<User> users = new ArrayList<User>();
 
         Database database = Database.getInstance();
 
@@ -41,7 +41,7 @@ public class UsersDoaWithSql implements UsersDoa {
 
             // iterate over the resultset, adding each user to the list
             while (results.next()) {
-                Users user = createUserFromResults(results);
+                User user = createUserFromResults(results);
                 users.add(user);
             }
         } catch (SQLException e) {
@@ -53,20 +53,20 @@ public class UsersDoaWithSql implements UsersDoa {
     }
 
     @Override
-    public void updateUser(Users user) {
+    public void updateUser(User user) {
 
     }
 
     @Override
-    public void deleteUser(Users user) {
+    public void deleteUser(User user) {
 
     }
 
     @Override
-    public int addUser(Users user) {return 0;}
+    public int addUser(User user) {return 0;}
 
-    private Users createUserFromResults(ResultSet results) throws SQLException {
-        Users user = new Users();
+    private User createUserFromResults(ResultSet results) throws SQLException {
+        User user = new User();
         user.setUserId(results.getInt("user_id"));
         user.setFirstName(results.getString("first_name"));
         user.setLastName(results.getString("last_name"));

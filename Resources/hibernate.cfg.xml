@@ -20,9 +20,9 @@
             admin
         </property>
         <mapping resource="Users.hbm.xml" />
-        <mapping class="com.nancyadam.ydbt.entity.Users" />
+        <mapping class="com.nancyadam.ydbt.entity.User" />
         <mapping resource="Books.hbm.xml" />
-        <mapping class="com.nancyadam.ydbt.entity.Books" />
+        <mapping class="com.nancyadam.ydbt.entity.Book" />
 
     </session-factory>
 

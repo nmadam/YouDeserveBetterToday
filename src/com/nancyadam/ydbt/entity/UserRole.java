@@ -3,14 +3,14 @@ package com.nancyadam.ydbt.entity;
 /**
  * Created by Nancy on 2/22/2016.
  */
-public class UserRoles {
+public class UserRole {
     private String userName;
     private String roleName;
 
-    public UserRoles() {
+    public UserRole() {
     }
 
-    public UserRoles(String userName, String roleName) {
+    public UserRole(String userName, String roleName) {
         this.userName = userName;
         this.roleName = roleName;
     }

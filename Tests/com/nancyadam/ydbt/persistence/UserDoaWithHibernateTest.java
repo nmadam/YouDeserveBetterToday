@@ -1,6 +1,6 @@
 package com.nancyadam.ydbt.persistence;
 
-import com.nancyadam.ydbt.entity.Users;
+import com.nancyadam.ydbt.entity.User;
 import org.junit.Test;
 /*
 import javax.ejb.TransactionAttribute;
@@ -15,7 +15,7 @@ import static org.junit.Assert.assertTrue;
  * @author Nancy Adam
  * @version 1.0 3/6/2016
  */
-public class UsersDoaWithHibernateTest {
+public class UserDoaWithHibernateTest {
 
     @Test
     public void testGetAllUsers() throws Exception {
@@ -34,10 +34,10 @@ public class UsersDoaWithHibernateTest {
 
     @Test
     public void testAddUser() throws Exception {
-        UsersDoaWithHibernate doa = new UsersDoaWithHibernate();
+        UserDaoWithHibernate doa = new UserDaoWithHibernate();
         int insertedUserId = 0;
         //create user to add
-        Users user = new Users();
+        User user = new User();
         user.setUserName("nmadam");
         user.setFirstName("Nancy");
         user.setLastName("Meister");

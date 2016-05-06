@@ -14,6 +14,8 @@
 
     <p>Lots of info here soon!</p>
 
+    <a href="searchAuthor.jsp">Search by Author</a>
+
   </div>
 
 </body>

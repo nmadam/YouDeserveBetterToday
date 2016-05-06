@@ -4,11 +4,11 @@
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-    <class name="com.nancyadam.ydbt.entity.UserRoles" table="user_roles">
+    <class name="com.nancyadam.ydbt.entity.UserRole" table="user_roles">
         <meta attribute="class-description">
             This class contains the user roles.
         </meta>
-        <composite-id mapped="true" class="com.nancyadam.ydbt.entity.UserRoles">
+        <composite-id mapped="true" class="com.nancyadam.ydbt.entity.UserRole">
             <key-property name="userName" column="user_name" />
             <key-property name="roleName" column="role_name" />
         </composite-id>

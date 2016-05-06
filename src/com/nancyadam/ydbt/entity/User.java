@@ -4,7 +4,7 @@ package com.nancyadam.ydbt.entity;
  * @author nancyadam
  * @version 1.0 2/28/2016
  */
-public class Users {
+public class User {
     private int userId;
     private String userName;
     private String userPass;
@@ -12,10 +12,10 @@ public class Users {
     private String firstName;
     private String email;
 
-    public Users() {
+    public User() {
     }
 
-    public Users(int userId, String userName, String userPass, String lastName, String firstName, String email) {
+    public User(int userId, String userName, String userPass, String lastName, String firstName, String email) {
         this.userId = userId;
         this.userName = userName;
         this.userPass = userPass;

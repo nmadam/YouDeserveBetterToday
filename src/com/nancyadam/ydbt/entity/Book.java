@@ -3,15 +3,15 @@ package com.nancyadam.ydbt.entity;
 /**
  * Created by Nancy on 2/22/2016.
  */
-public class Books {
+public class Book {
     private int bookId;
     private String bookTitle;
 
 
-    public Books() {
+    public Book() {
     }
 
-    public Books(int bookId, String bookTitle) {
+    public Book(int bookId, String bookTitle) {
         this.bookId = bookId;
         this.bookTitle = bookTitle;
     }

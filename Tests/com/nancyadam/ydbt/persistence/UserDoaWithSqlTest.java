@@ -1,6 +1,6 @@
 package com.nancyadam.ydbt.persistence;
 
-import com.nancyadam.ydbt.entity.Users;
+import com.nancyadam.ydbt.entity.User;
 
 import org.junit.Test;
 
@@ -12,12 +12,12 @@ import static org.junit.Assert.*;
  * @author Nancy
  * @version 1.0 3/6/2016
  */
-public class UsersDoaWithSqlTest {
+public class UserDoaWithSqlTest {
 
     @Test
     public void testGetAllUsers() throws Exception {
-        UsersDoaWithSql doaWithSql = new UsersDoaWithSql();
-        List<Users> users = doaWithSql.getAllUsers();
+        UserDaoWithSql doaWithSql = new UserDaoWithSql();
+        List<User> users = doaWithSql.getAllUsers();
         assertTrue(users.size() > 0);
     }
 
