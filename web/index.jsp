@@ -15,6 +15,10 @@
     <p>Lots of info here soon!</p>
 
     <a href="searchAuthor.jsp">Search by Author</a>
+    <br />
+    <a href="mailingListSignUp.jsp">Sign Up</a>
+    <br />
+    <a href="addBookReveiw.jsp">Add Book Review</a>
 
   </div>
 

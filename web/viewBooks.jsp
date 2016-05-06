@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 
 <c:import url="head-tag.jsp"/>
@@ -8,6 +9,7 @@
 
 <div class="container">
     <br /><br /><br />
+
     <table class="table-responsive">
         <tbody>
             <tr>

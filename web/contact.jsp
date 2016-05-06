@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 
 <c:import url="head-tag.jsp"/>
@@ -7,7 +8,9 @@
 <c:import url="navbar.jsp"/>
 
 <div class="container">
-   <p>Contact CJ Laclove at admin@gmail.com</p>
+   <br /><br /><br />
+
+   <h3>Contact CJ Laclove at admin@gmail.com</h3>
 </div>
 
 

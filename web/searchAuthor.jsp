@@ -10,7 +10,6 @@
 <div class="container">
     <br /><br /><br />
 
-
     <form action="searchAuthor" method="get" >
 
         <!-- Text input-->
@@ -38,7 +37,6 @@
             </div>
         </div>
 
-        </fieldset>
     </form>
 </div>
 
