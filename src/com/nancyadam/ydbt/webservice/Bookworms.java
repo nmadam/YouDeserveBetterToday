@@ -41,7 +41,6 @@ public class Bookworms {
             while ((line = reader.readLine()) != null) {
 
                 json += line;
-                System.out.println(line);
 
             }
 

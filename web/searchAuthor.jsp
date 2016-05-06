@@ -8,32 +8,36 @@
 <c:import url="navbar.jsp"/>
 
 <div class="container">
-    <br /><br /><br />
+    <br /><br /><br /><br />
 
     <form action="searchAuthor" method="get" >
 
         <!-- Text input-->
         <div class="form-group">
-            <label class="col-md-4 control-label" for="Author First Name">Author First Name</label>
-            <div class="col-md-3">
-                <input id="Author First Name" name="Author First Name" type="text" placeholder="" class="form-control input-md">
-
+            <label for="author_First_Name">Author First Name</label>
+            <div class="row">
+                <div class="col-md-3">
+                    <input id="author_First_Name" name="author_First_Name" type="text" placeholder="" class="form-control input-md">
+                </div>
             </div>
         </div>
 
         <!-- Text input-->
         <div class="form-group">
-            <label class="col-md-4 control-label" for="Author Last Name">Author Last Name</label>
-            <div class="col-md-4">
-                <input id="Author Last Name" name="Author Last Name" type="text" placeholder="" class="form-control input-md">
-
+            <label for="author_Last_Name">Author Last Name</label>
+            <div class="row">
+                <div class="col-md-4">
+                    <input id="author_Last_Name" name="author_Last_Name" type="text" placeholder="" class="form-control input-md">
+                </div>
             </div>
         </div>
 
         <!-- Button -->
         <div class="form-group">
-            <div class="col-md-3">
-                <input type="submit" id="Search" class="btn btn-primary" value="Search"/>
+            <div class="row">
+                <div class="col-md-3">
+                    <input type="submit" id="Search" class="btn btn-primary" value="Search"/>
+                </div>
             </div>
         </div>
 
