@@ -39,8 +39,7 @@ public class UserDaoWithHibernate implements UserDao {
         try {
             tx = session.beginTransaction();
             userId = (Integer) session.save("User", user);
-//            tx.commit();
-            //log.info("Added user: " + user + " with id of: " + userId);
+            tx.commit();
         } catch (HibernateException e) {
             if (tx!=null) tx.rollback();
             e.printStackTrace();

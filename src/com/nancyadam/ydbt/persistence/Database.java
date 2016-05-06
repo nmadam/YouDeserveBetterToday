@@ -47,7 +47,7 @@ public class Database {
         }
         String url = "jdbc:mysql://localhost:3306/youdeservebettertoday";
 
-        connection = DriverManager.getConnection(url, "admin", "admin");
+        connection = DriverManager.getConnection(url, "student", "student");
     }
 
     public void disconnect() {
