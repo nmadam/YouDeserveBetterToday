@@ -13,6 +13,8 @@
 
     <div class="container">
     <br /><br /><br />
+        <a href="viewMailingList">View Mailing List</a>
+        <a href="viewReview">View Review</a>
         This is the admin page where I'm testing fancy admin-only stuff happens.
      </div>
 </body>
