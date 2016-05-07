@@ -12,7 +12,6 @@
 
     <div class="table-responsive">
     <table class="table">
-        <table
         <tbody>
             <c:forEach var="book" items="${books.book}">
 

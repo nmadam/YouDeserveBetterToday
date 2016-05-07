@@ -15,7 +15,7 @@ public class UserDaoWithHibernate implements UserDao {
    // private final Logger log = Logger.getLogger(this.getClass());
 
     @Override
-    public List<User> getAllUsers() {
+    public List<User> getAllUsers() {  //NOT IMPLEMENTED
         List<User> users = new ArrayList<User>();
         return users;
     }

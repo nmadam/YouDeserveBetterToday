@@ -33,7 +33,7 @@ public class MailingListSignUp extends HttpServlet {
         String lastname = request.getParameter("lastname");
         String email = request.getParameter("email");
 
-        UserDao userDao = new UserDaoWithHibernate();
+        UserDaoWithHibernate userDao = new UserDaoWithHibernate();
 
         User user = new User();
 

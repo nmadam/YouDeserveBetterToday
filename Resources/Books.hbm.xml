@@ -12,5 +12,6 @@
             <generator class="native"/>
         </id>
         <property name="bookTitle" column="book_title" type="string"/>
+        <property name="bookAuthor" column="book_author" type="string"/>
     </class>
 </hibernate-mapping>

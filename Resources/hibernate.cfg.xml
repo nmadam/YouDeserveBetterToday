@@ -23,6 +23,8 @@
         <mapping class="com.nancyadam.ydbt.entity.User" />
         <mapping resource="Books.hbm.xml" />
         <mapping class="com.nancyadam.ydbt.entity.Book" />
+        <mapping resource="UserBooks.hbm.xml" />
+        <mapping class="com.nancyadam.ydbt.entity.UserBook" />
 
     </session-factory>
 

@@ -18,7 +18,7 @@
     <br />
     <a href="mailingListSignUp.jsp">Sign Up</a>
     <br />
-    <a href="addBookReveiw.jsp">Add Book Review</a>
+    <a href="addBookReview.jsp">Add Book Review</a>
 
   </div>
 

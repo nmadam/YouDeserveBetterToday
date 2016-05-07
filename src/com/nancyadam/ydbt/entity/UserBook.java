@@ -1,9 +1,11 @@
 package com.nancyadam.ydbt.entity;
 
+import java.io.Serializable;
+
 /**
  * Created by Nancy on 2/22/2016.
  */
-public class UserBook {
+public class UserBook implements Serializable{
     private int bookId;
     private int userId;
     private String rating;

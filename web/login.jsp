@@ -1,15 +1,18 @@
-<%@ page contentType="comment/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
-<head>
-    <title>Welcome</title>
-</head>
+
+<c:import url="head-tag.jsp"/>
+
+<html>
 <body>
-<FORM ACTION="j_security_check" METHOD="POST">
-    <TABLE>
-        <TR><TD>User name: <INPUT TYPE="TEXT" NAME="j_username">
-        <TR><TD>Password: <INPUT TYPE="PASSWORD" NAME="j_password">
-        <TR><TH><INPUT TYPE="SUBMIT" VALUE="Log In">
-    </TABLE>
-</FORM>
+<form action = "j_security_check" method = "post">
+    <table>
+        <tr><td>User name: <INPUT TYPE="TEXT" NAME="j_username" ></td></tr>
+        <tr><td>Password: <INPUT TYPE="PASSWORD" NAME="j_password" ></td></tr>
+        <tr><th><INPUT TYPE="SUBMIT" VALUE="Log In"></th></tr>
+    </table>
+</form>
 </body>
+
+
 </html>

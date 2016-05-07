@@ -6,14 +6,16 @@ package com.nancyadam.ydbt.entity;
 public class Book {
     private int bookId;
     private String bookTitle;
+    private  String bookAuthor;
 
 
     public Book() {
     }
 
-    public Book(int bookId, String bookTitle) {
+    public Book(int bookId, String bookTitle, String bookAuthor) {
         this.bookId = bookId;
         this.bookTitle = bookTitle;
+        this.bookAuthor = bookAuthor;
     }
     /**/
     public int getBookId() {
@@ -31,4 +33,8 @@ public class Book {
     public void setBookTitle(String bookTitle) {
         this.bookTitle = bookTitle;
     }
+
+    public String getBookAuthor() { return bookAuthor; }
+
+    public void setBookAuthor(String bookAuthor) { this.bookAuthor = bookAuthor; }
 }

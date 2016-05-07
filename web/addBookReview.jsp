@@ -10,7 +10,7 @@
 <div class="container">
     <br /><br /><br />
 
-    <form action="addBookReveiw" method="get" >
+    <form action="addBookReview" method="get" >
 
         <!-- Text input-->
         <div class="form-group">

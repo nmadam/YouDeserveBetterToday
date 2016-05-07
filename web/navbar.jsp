@@ -12,7 +12,7 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#">Contact Us</a></li>
                 <li><a href="#">Sign Up</a></li>
-                <li><a href="admin.jsp">Admin Page</a></li>
+                <li><a href="admin/admin.jsp">Admin Page</a></li>
             </ul>
         </div>
     </div>
