@@ -8,26 +8,32 @@
 <c:import url="navbar.jsp"/>
 
 <div class="container">
-    <br /><br /><br /><br />
 
     <div class="table-responsive">
     <table class="table">
+
+        <thead>
+            <tr>
+                <th>ISBN</th>
+                <th>Title</th>
+                <th>Published</th>
+                <th>Description</th>
+                <th>Cover Art</th>
+            </tr>
+        </thead>
         <tbody>
             <c:forEach var="book" items="${books.book}">
-
                 <tr>
                     <td>${book.isbn}</td>
-                    <td><a href="${book.link}">${book.title}</a></td>
+                    <td><a target="_blank" href="${book.link}">${book.title}</a></td>
                     <td>${book.published}</td>
                     <td>${book.description}</td>
                     <td><img src="${book.imageUrl}" alt="Image of book"/></td>
                 </tr>
-
             </c:forEach>
         </tbody>
     </table>
     </div>
-
 </div>
 
 

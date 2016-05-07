@@ -8,7 +8,6 @@
 <c:import url="navbar.jsp"/>
 
 <div class="container">
-    <br /><br /><br /><br />
 
     <div class="table-responsive">
         <table class="table">

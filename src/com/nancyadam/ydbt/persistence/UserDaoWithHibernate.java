@@ -7,16 +7,22 @@ import org.hibernate.Transaction;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Logger;
+
 /**
  * @author Nancy
  * @version 1.0 2/28/2016
  */
 public class UserDaoWithHibernate implements UserDao {
-   // private final Logger log = Logger.getLogger(this.getClass());
+    //private final Logger log = Logger.getLogger(this.getClass());
 
     @Override
-    public List<User> getAllUsers() {  //NOT IMPLEMENTED
+    public List<User> getAllUsers() {
         List<User> users = new ArrayList<User>();
+
+        Session session = SessionFactoryProvider1.getSessionFactory().openSession();
+        session.createCriteria(User.class).list();
+
         return users;
     }
 

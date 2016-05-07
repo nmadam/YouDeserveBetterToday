@@ -1,5 +1,4 @@
 <nav class="navbar-fixed-bottom">
-    <ul>
-        <li><a>Copyright 2016</a></li>
-    </ul>
+
+        <h2><a>Copyright 2016</a></h2>
 </nav>

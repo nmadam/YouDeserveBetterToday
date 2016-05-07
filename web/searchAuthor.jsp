@@ -8,7 +8,10 @@
 <c:import url="navbar.jsp"/>
 
 <div class="container">
-    <br /><br /><br /><br />
+
+    <div class="container">
+        <h2>Search for Your Favorite Author!</h2>
+    </div>
 
     <form action="searchAuthor" method="get" >
 
@@ -36,7 +39,7 @@
         <div class="form-group">
             <div class="row">
                 <div class="col-md-3">
-                    <input type="submit" id="Search" class="btn btn-primary" value="Search"/>
+                    <input type="submit" id="Search" class="btn btn-warning btn-primary-outline" value="Search"/>
                 </div>
             </div>
         </div>

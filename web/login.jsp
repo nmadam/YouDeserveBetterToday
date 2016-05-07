@@ -8,7 +8,7 @@
 <c:import url="navbar.jsp"/>
 
 <div class="container">
-    <br /><br /><br /><br />
+
 
     <div class="container">
         <h2 class="text-info">Please Enter Login</h2>
@@ -35,7 +35,7 @@
         <div class="form-group">
             <div class="row">
                 <div class="col-md-4">
-                    <input type="submit" id="login" class="btn btn-primary" value="Login"/>
+                    <input type="submit" id="login" class="btn btn-warning" value="Login"/>
                 </div>
             </div>
         </div>

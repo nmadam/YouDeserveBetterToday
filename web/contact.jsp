@@ -8,8 +8,6 @@
 <c:import url="navbar.jsp"/>
 
 <div class="container">
-   <br /><br /><br />
-
    <h3>Contact CJ Laclove at admin@gmail.com</h3>
 </div>
 

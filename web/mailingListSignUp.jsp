@@ -8,10 +8,9 @@
 <c:import url="navbar.jsp"/>
 
 <div class="container">
-    <br /><br /><br /><br />
 
     <div class="container">
-        <h2 class="text-info">Please Enter Sign Up Information</h2>
+        <h2>Please Enter Sign Up Information</h2>
     </div>
 
     <form action="signUp" method="get" >
@@ -74,7 +73,7 @@
         <div class="form-group">
             <div class="row">
                 <div class="col-md-4">
-                    <input type="submit" id="mailingListSignUp" class="btn btn-primary" value="Sign Up"/>
+                    <input type="submit" id="mailingListSignUp" class="btn btn-warning btn-primary-outline" value="Sign Up"/>
                 </div>
             </div>
         </div>

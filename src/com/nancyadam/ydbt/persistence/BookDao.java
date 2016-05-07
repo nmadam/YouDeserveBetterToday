@@ -12,6 +12,9 @@ import org.hibernate.Transaction;
 public class BookDao {
 
 
+    //add method to find book
+
+
 
     public void addBook(Book book) {
         Session session = SessionFactoryProvider1.getSessionFactory().openSession();

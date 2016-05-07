@@ -8,7 +8,10 @@
 <c:import url="navbar.jsp"/>
 
 <div class="container">
-    <br /><br /><br />
+
+    <div class="container">
+        <h2>Please Add Your Book Review</h2>
+    </div>
 
     <form action="addBookReview" method="get" >
 
@@ -50,11 +53,10 @@
         <!-- Button -->
         <div class="form-group">
             <div class="col-md-4">
-                <input type="submit" id="addBookReview" class="btn btn-primary" value="Add Review"/>
-            </div>
+                <input type="submit" id="addBookReview" class="btn btn-warning btn-primary-outline" value="Add Review"/>
+            </div
         </div>
 
-        </fieldset>
     </form>
 </div>
 </body>
