@@ -29,7 +29,7 @@
             <label for="userpass">Password:</label>
                 <div class="row">
                     <div class="col-md-5">
-                        <input id="userpass" type="userpass" class="form-control" name="userpass">
+                        <input id="userpass" type="password" class="form-control" name="userpass">
                     </div>
                 </div>
         </div>
@@ -37,7 +37,7 @@
             <label for="userpass1">Re-Enter Password:</label>
             <div class="row">
                 <div class="col-md-5">
-                    <input id="userpass1" type="userpass1" class="form-control" name="userpass1">
+                    <input id="userpass1" type="password" class="form-control" name="userpass1">
                 </div>
             </div>
         </div>

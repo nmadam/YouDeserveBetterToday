@@ -13,9 +13,11 @@
 
     <div class="container">
     <br /><br /><br />
-        <a href="viewMailingList">View Mailing List</a>
-        <a href="viewReview">View Review</a>
-        This is the admin page where I'm testing fancy admin-only stuff happens.
+
+        <h1><a href="viewMailingList">View Mailing List</a></h1>
+        <br />
+        <h1><a href="viewReview">View Review</a></h1>
+        <br />
      </div>
 </body>
 <c:import url="../footer.jsp"/>
