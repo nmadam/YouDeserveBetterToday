@@ -1,6 +1,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
-<c:import url="../head-tag.jsp"/>
+<c:import url="head-tagAdmin.jsp"/>
 
 <html>
 
@@ -9,7 +9,7 @@
 </head>
 
 <body>
-<c:import url="../navbar.jsp"/>
+<c:import url="navbarAdmin.jsp"/>
 
     <div class="container">
     <br /><br /><br />
@@ -20,5 +20,5 @@
         <br />
      </div>
 </body>
-<c:import url="../footer.jsp"/>
+<c:import url="footerAdmin.jsp"/>
 </html>
