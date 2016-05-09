@@ -21,7 +21,7 @@
             </tr>
             </thead>
             <tbody>
-            <c:forEach var="user" items="${allUsers.user}">
+            <c:forEach var="user" items="${allUsers}">
                 <tr>
                     <td>${user.userName}</td>
                     <td>${user.firstName}</td>

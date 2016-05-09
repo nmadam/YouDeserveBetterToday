@@ -19,8 +19,8 @@ import java.util.List;
  */
 
 @WebServlet(
-        name = "viewMailList",
-        urlPatterns = { "../viewMailList" }
+        name = "viewMailingList",
+        urlPatterns = { "/admin/viewMailingList" }
 )
 
 public class ViewMailList extends HttpServlet {
@@ -36,7 +36,7 @@ public class ViewMailList extends HttpServlet {
 
         session.setAttribute("allUsers", allUsers);
 
-        String url = "../viewMailingList.jsp";
+        String url = "/viewMailingList.jsp";
         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(url);
         dispatcher.forward(request, response);
 

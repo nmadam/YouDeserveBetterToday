@@ -13,7 +13,7 @@ import java.io.IOException;
 
 @WebServlet(
         name = "viewReviews",
-        urlPatterns = { "../viewReviews" }
+        urlPatterns = { "/viewReviews" }
 )
 
 public class ViewReviews extends HttpServlet {

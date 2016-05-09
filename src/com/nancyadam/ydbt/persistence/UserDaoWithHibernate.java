@@ -21,8 +21,8 @@ public class UserDaoWithHibernate implements UserDao {
         List<User> users = new ArrayList<User>();
 
         Session session = SessionFactoryProvider1.getSessionFactory().openSession();
-        session.createCriteria(User.class).list();
-
+        users = session.createCriteria(User.class).list();
+        session.close();
         return users;
     }
 

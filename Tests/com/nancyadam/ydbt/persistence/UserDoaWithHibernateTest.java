@@ -1,6 +1,7 @@
 package com.nancyadam.ydbt.persistence;
 
 import com.nancyadam.ydbt.entity.User;
+import org.hibernate.Session;
 import org.junit.Test;
 /*
 import javax.ejb.TransactionAttribute;
@@ -9,18 +10,28 @@ import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 */
-import static org.junit.Assert.assertTrue;
+import java.sql.Connection;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.logging.Logger;
+
+import static org.junit.Assert.*;
 
 /**
  * @author Nancy Adam
  * @version 1.0 3/6/2016
  */
 public class UserDoaWithHibernateTest {
+    //private final Logger log = Logger.getLogger(this.getClass());
 
     @Test
     public void testGetAllUsers() throws Exception {
-
+        UserDaoWithHibernate dao = new UserDaoWithHibernate();  // create a test object
+        List<User> users = dao.getAllUsers(); // test the method
+        //log.info(users);
+        assertTrue(users.size() > 0);  // check if the list contains any objects
     }
+
 
     @Test
     public void testUpdateUser() throws Exception {
