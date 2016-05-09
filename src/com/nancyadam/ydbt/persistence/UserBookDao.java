@@ -4,12 +4,22 @@ import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Created by Student on 5/6/2016.
  */
 public class UserBookDao {
+
+    public List<UserBook> getAllRatings() {
+        List<UserBook> userBooks = new ArrayList<UserBook>();
+
+        Session session = SessionFactoryProvider1.getSessionFactory().openSession();
+        userBooks = session.createCriteria(UserBook.class).list();
+        session.close();
+        return userBooks;
+    }
 
     public void addUserBook(UserBook userBook) {
         Session session = SessionFactoryProvider1.getSessionFactory().openSession();

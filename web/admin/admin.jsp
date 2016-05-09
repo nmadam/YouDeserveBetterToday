@@ -16,7 +16,7 @@
 
         <h1><a href="viewMailingList">View Mailing List</a></h1>
         <br />
-        <h1><a href="viewReview">View Review</a></h1>
+        <h1><a href="viewReviews">View Review</a></h1>
         <br />
      </div>
 </body>

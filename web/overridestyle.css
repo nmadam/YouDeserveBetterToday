@@ -1,6 +1,13 @@
 .navbar-default  {
     background-color: #b26394;
-    border-color: black;
+    border-top: 1px ridge;
+    border-right: 1px ridge;
+    border-left: 1px ridge;
+    border-bottom: 2px ridge;
+    border-top-color: black;
+    border-right-color: darkorange;
+    border-left-color: darkorange;
+    border-bottom-color: darkorange;
 }
 .navbar-default .navbar-brand {
     color: black;
@@ -22,14 +29,14 @@
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #060505;
-    background-color: #f6f92f;
+    color: #f6f92f;
+    background-color: #060505;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-    color: #060505;
-    background-color: #f6f92f;
+    color: #f6f92f;
+    background-color: #060505;
 }
 .navbar-default .navbar-toggle {
     border-color: #f6f92f;
