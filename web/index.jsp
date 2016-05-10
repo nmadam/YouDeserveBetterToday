@@ -44,9 +44,9 @@
 
           <div class="col-sm-4">
               <div class="panel panel-success">
-                  <div class="panel-heading text-center"><h2 class="fancy-title">Search for Books</h2></div>
+                  <div class="panel-heading text-center"><h2>Search for Books</h2></div>
                   <div class="panel-body">
-                      <h4><a class = "href="#">Search for books similiar to <span class="fancy-title">&quot;YOU DESERVE BETTER.&quot;</span></a></h4>
+                      <h4><a href="#">Search for books similiar to <span class="fancy-title">&quot;YOU DESERVE BETTER.&quot;</span></a></h4>
                       <h4><a href="searchAuthor.jsp">Searh for <span class="fancy-title">&quot;OTHER.&quot;</span> inspirational books.</a></h4>
                       <h4><a href="addBookReview.jsp">Add a Book Review</a></h4>
                   </div>
