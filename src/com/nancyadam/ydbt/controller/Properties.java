@@ -7,6 +7,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.io.InputStream;
 
 /**
  * Created by Nancy Adam on 5/7/2016.
@@ -17,10 +18,7 @@ import java.io.IOException;
 )
 
 public class Properties extends HttpServlet {
-    /** holds properties information */
-    /*How do I incorporate the new file structure for properties in Resources to call it?*/
-
-   // Properties properties = new Properties();
+    private Properties properties;
 
     /**
      * Handles HTTP GET requests.
@@ -30,25 +28,25 @@ public class Properties extends HttpServlet {
      *@exception ServletException   if there is a Servlet failure
      *@exception IOException        if there is an IO failure
      */
-   /* public void doGet(HttpServletRequest request, HttpServletResponse response)
+    public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
+        /** holds properties information */
+
+
+        properties = new Properties();
+
         request.setAttribute("properties", properties);
-
         String url = "/properties";
-
         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(url);
-
         dispatcher.forward(request, response);
-    }*/
+    }
 
     /** Method that will load the project properties file into the Properties
      * instance variable.
      */
-    /*private void loadProperties() {
-
+    private void loadProperties() {
         properties = new Properties();
-
         try {
             properties.load(this.getClass().getResourceAsStream("/Resources/properties"));
         } catch (IOException ioe) {
@@ -56,11 +54,10 @@ public class Properties extends HttpServlet {
         } catch (Exception exception) {
             exception.printStackTrace();
         }
-    }*/
+    }
 
     /** Initialization method*/
-    /*public void init() {
+    public void init() {
         loadProperties();
-    }*/
+    }
 }
-

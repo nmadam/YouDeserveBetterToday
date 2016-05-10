@@ -1,20 +1,21 @@
 package com.nancyadam.ydbt.persistence;
 
 import com.nancyadam.ydbt.entity.User;
+import org.apache.log4j.Logger;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Logger;
+
 
 /**
  * @author Nancy
  * @version 1.0 2/28/2016
  */
 public class UserDaoWithHibernate implements UserDao {
-    //private final Logger log = Logger.getLogger(this.getClass());
+    private final Logger log = Logger.getLogger(this.getClass());
 
     @Override
     public List<User> getAllUsers() {

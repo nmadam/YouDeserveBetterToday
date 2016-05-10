@@ -25,6 +25,8 @@
         <mapping class="com.nancyadam.ydbt.entity.Book" />
         <mapping resource="UserBooks.hbm.xml" />
         <mapping class="com.nancyadam.ydbt.entity.UserBook" />
+        <mapping resource="UserRoles.hbm.xml" />
+        <mapping class="com.nancyadam.ydbt.entity.UserRole" />
 
     </session-factory>
 
