@@ -32,9 +32,6 @@
                                 <td>${userBook.comment}</td>
                             </tr>
                         </c:when>
-                        <c:otherwise>
-                            <h2>There are no reviews to list.</h2>
-                        </c:otherwise>
                      </c:choose>
                     </c:forEach>
                 </c:forEach>
