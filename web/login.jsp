@@ -11,7 +11,7 @@
 
 
     <div class="container">
-        <h2 class="text-info">Please Enter Login</h2>
+        <h2 class="fancy-title">Please Enter Login</h2>
     </div>
 
     <form action = "j_security_check" method = "post">

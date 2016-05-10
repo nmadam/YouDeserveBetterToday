@@ -14,10 +14,10 @@
 
             <thead>
             <tr>
-                <th>Username</th>
-                <th>First Name</th>
-                <th>Last Name</th>
-                <th>email</th>
+                <th class="fancy-title">Username</th>
+                <th class="fancy-title">First Name</th>
+                <th class="fancy-title">Last Name</th>
+                <th class="fancy-title">email</th>
             </tr>
             </thead>
             <tbody>

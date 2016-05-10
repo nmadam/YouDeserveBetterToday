@@ -10,7 +10,7 @@
 <div class="container">
 
     <div class="container">
-        <h2>Search for Your Favorite Author!</h2>
+        <h2 class="fancy-title">Search for Your Favorite Author!</h2>
     </div>
 
     <form action="searchAuthor" method="get" >

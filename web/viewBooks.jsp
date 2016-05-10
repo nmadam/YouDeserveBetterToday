@@ -11,14 +11,13 @@
 
     <div class="table-responsive">
     <table class="table">
-
         <thead>
             <tr>
-                <th>ISBN</th>
-                <th>Title</th>
-                <th>Published</th>
-                <th>Description</th>
-                <th>Cover Art</th>
+                <th class="fancy-title">ISBN</th>
+                <th class="fancy-title">Title</th>
+                <th class="fancy-title">Published</th>
+                <th class="fancy-title">Description</th>
+                <th class="fancy-title">Cover Art</th>
             </tr>
         </thead>
         <tbody>

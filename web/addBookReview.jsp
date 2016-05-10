@@ -10,7 +10,7 @@
 <div class="container">
 
     <div class="container">
-        <h2>Please Add Your Book Review</h2>
+        <h2 class="fancy-title">Please Add Your Book Review</h2>
     </div>
 
     <form action="addBookReview" method="get" >

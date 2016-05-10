@@ -10,7 +10,7 @@
 <div class="container">
 
     <div class="container">
-        <h2>Please Enter Sign Up Information</h2>
+        <h2 class="fancy-title">Please Enter Sign Up Information</h2>
     </div>
 
     <form action="signUp" method="get" >

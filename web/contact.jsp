@@ -8,7 +8,7 @@
 <c:import url="navbar.jsp"/>
 
 <div class="container">
-   <h3>Contact CJ Laclove at admin@gmail.com</h3>
+   <h3 class="text-center fancy-title">Contact CJ Laclove at admin@gmail.com</h3>
 </div>
 
 

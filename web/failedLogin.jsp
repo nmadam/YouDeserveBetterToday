@@ -11,7 +11,7 @@
 
     <div class="container">
 
-        <h3>Invalid userid/password combination.<h3></h3> <br />
+        <h3 class="text-center fancy-title">Invalid userid/password combination.<h3></h3> <br />
 
         <p class = "text-warning"><a href="login.jsp"><strong>Try again</strong></a></p>
     </div>

@@ -40,7 +40,7 @@ public class ViewReviews extends HttpServlet {
         HttpSession session = request.getSession();
 
         session.setAttribute("userBooks", userBooks);
-        session.setAttribute("books", "books");
+        session.setAttribute("books", books);
 
         String url = "/viewReviews.jsp";
         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(url);
