@@ -23,7 +23,7 @@ import java.util.List;
 
 @WebServlet(
         name = "viewReviews",
-        urlPatterns = { "/admin/viewReviews" }
+        urlPatterns = { "/viewReviews" }
 )
 
 public class ViewReviews extends HttpServlet {

@@ -20,7 +20,7 @@ import java.util.List;
 
 @WebServlet(
         name = "viewMailingList",
-        urlPatterns = { "/admin/viewMailingList" }
+        urlPatterns = { "/viewMailingList" }
 )
 
 public class ViewMailList extends HttpServlet {

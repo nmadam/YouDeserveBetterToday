@@ -21,9 +21,9 @@
             <div class="panel panel-success">
                 <div class="panel-heading text-center"><h3>Administer Website</h3></div>
                 <div class="panel-body">
-                    <h4><a class="fancy-title" href="/admin/viewMailingList">View Mailing List</a></h4>
+                    <h4><a class="fancy-title" href="/viewMailingList">View Mailing List</a></h4>
                     <br />
-                    <h4><a class="fancy-title" href="/admin/viewReviews">View Reviews</a></h4>
+                    <h4><a class="fancy-title" href="/viewReviews">View Reviews</a></h4>
                 </div>
             </div>
         </div>
