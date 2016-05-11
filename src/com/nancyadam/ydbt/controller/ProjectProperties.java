@@ -1,5 +1,7 @@
 package com.nancyadam.ydbt.controller;
 
+import org.apache.log4j.Logger;
+
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -7,17 +9,18 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.InputStream;
+import java.util.Properties;
 
-/**
- * Created by Nancy Adam on 5/7/2016.
- */
 @WebServlet(
-        name = "properties",
-        urlPatterns = { "/properties" }
+        name = "projectProperties",
+        urlPatterns = { "/projectProperties" }
 )
 
-public class Properties extends HttpServlet {
+/**
+ * Created by Student on 5/11/2016.
+ */
+public class ProjectProperties extends HttpServlet {
+    private final Logger log = Logger.getLogger(this.getClass());
     private Properties properties;
 
     /**
@@ -35,7 +38,7 @@ public class Properties extends HttpServlet {
         properties = new Properties();
 
         request.setAttribute("properties", properties);
-        String url = "/properties";
+        String url = "/projectProperties";
         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(url);
         dispatcher.forward(request, response);
     }
@@ -46,11 +49,11 @@ public class Properties extends HttpServlet {
     private void loadProperties() {
         properties = new Properties();
         try {
-            properties.load(this.getClass().getResourceAsStream("/Resources/properties.properties"));
+            properties.load(this.getClass().getResourceAsStream("/Resources/properties"));
         } catch (IOException ioe) {
-            ioe.printStackTrace();
+            log.error(ioe);
         } catch (Exception exception) {
-            exception.printStackTrace();
+            log.error(exception);
         }
     }
 
@@ -58,4 +61,5 @@ public class Properties extends HttpServlet {
     public void init() {
         loadProperties();
     }
+
 }

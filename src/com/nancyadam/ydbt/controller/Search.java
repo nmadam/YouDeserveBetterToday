@@ -4,6 +4,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.nancyadam.ydbt.bookwormsEntities.BooksType;
 import com.nancyadam.ydbt.bookwormsEntities.GoodreadsResponseType;
 import com.nancyadam.ydbt.webservice.Bookworms;
+
+import org.apache.log4j.Logger;
 import org.xml.sax.SAXException;
 
 import javax.servlet.RequestDispatcher;
@@ -15,6 +17,8 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
+
+
 /**
  * Created by Nancy Adam on 5/6/2016.
  */
@@ -25,6 +29,7 @@ import java.io.IOException;
 )
 
 public class Search extends HttpServlet {
+    private final Logger log = Logger.getLogger(this.getClass());
 
     public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
@@ -39,7 +44,7 @@ public class Search extends HttpServlet {
         try {
             json = bookworms.getJSONBooksByAuthorName(authorFirstName, authorLastName);
         } catch (SAXException e) {
-            e.printStackTrace();
+            log.error(e);
         }
 
         //Parse Json

@@ -1,9 +1,11 @@
 package com.nancyadam.ydbt.entity;
 
+import java.io.Serializable;
+
 /**
  * Created by Nancy on 2/22/2016.
  */
-public class UserRole {
+public class UserRole implements Serializable {
     private String userName;
     private String roleName;
 

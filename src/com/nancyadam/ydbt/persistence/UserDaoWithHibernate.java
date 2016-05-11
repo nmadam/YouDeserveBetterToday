@@ -42,10 +42,10 @@ public class UserDaoWithHibernate implements UserDao {
 
         Session session = SessionFactoryProvider1.getSessionFactory().openSession();
         Transaction tx = null;
-        Integer userId = 0;
+        Integer userWho = 0;
         try {
             tx = session.beginTransaction();
-            userId = (Integer) session.save("User", user);
+            userWho = (Integer) session.save("User", user);
             tx.commit();
         } catch (HibernateException e) {
             if (tx!=null) tx.rollback();
@@ -53,7 +53,7 @@ public class UserDaoWithHibernate implements UserDao {
         } finally {
             session.close();
         }
-        return userId;
+        return userWho;
     }
 
 }
