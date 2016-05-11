@@ -32,8 +32,6 @@ public class Properties extends HttpServlet {
             throws ServletException, IOException {
 
         /** holds properties information */
-
-
         properties = new Properties();
 
         request.setAttribute("properties", properties);
@@ -48,7 +46,7 @@ public class Properties extends HttpServlet {
     private void loadProperties() {
         properties = new Properties();
         try {
-            properties.load(this.getClass().getResourceAsStream("/Resources/properties"));
+            properties.load(this.getClass().getResourceAsStream("/Resources/properties.properties"));
         } catch (IOException ioe) {
             ioe.printStackTrace();
         } catch (Exception exception) {

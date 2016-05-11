@@ -29,7 +29,6 @@ public class UserDoaWithHibernateTest {
     public void testGetAllUsers() throws Exception {
         UserDaoWithHibernate dao = new UserDaoWithHibernate();  // create a test object
         List<User> users = dao.getAllUsers(); // test the method
-        log.info(users);
         assertTrue(users.size() > 0);  // check if the list contains any objects
     }
 
