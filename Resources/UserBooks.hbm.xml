@@ -6,7 +6,7 @@
 <hibernate-mapping>
     <class name="com.nancyadam.ydbt.entity.UserBook" table="user_book">
         <meta attribute="class-description">
-            This class contains the user detail.
+            This class contains the book ratings.
         </meta>
         <composite-id mapped="true" class="com.nancyadam.ydbt.entity.UserBook">
             <key-property name="bookId" column="book_id" />
