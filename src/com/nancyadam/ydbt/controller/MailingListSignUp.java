@@ -50,16 +50,18 @@ public class MailingListSignUp extends HttpServlet {
         user.setLastName(lastname);
         user.setEmail(email);
 
-        userDao.addUser(user);
 
         /*tests if last name has a value, if so runs the method to
             add the user to the database displaying the appropriate message*/
-        if (lastname.length() != 0 || !lastname.equals("")){
+        if ((lastname.length() != 0 && !lastname.equals("")) && (firstname.length() != 0 && !firstname.equals(""))){
             userDao.addUser(user);
         } else {
             addMessage = "Please try again!";
+            session.setAttribute("addMessage", addMessage);
+            String url = "/mailingListSignUp.jsp";
+            RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(url);
+            dispatcher.forward(request, response);
         }
-        session.setAttribute("addMessage", addMessage);
 
         String url = "/index.jsp";
         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(url);

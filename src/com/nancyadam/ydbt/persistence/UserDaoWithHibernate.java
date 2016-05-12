@@ -42,18 +42,18 @@ public class UserDaoWithHibernate implements UserDao {
 
         Session session = SessionFactoryProvider1.getSessionFactory().openSession();
         Transaction tx = null;
-        Integer userWho = 0;
+        Integer userId = 0;
         try {
             tx = session.beginTransaction();
-            userWho = (Integer) session.save("User", user);
+            userId = (Integer) session.save("User", user);
             tx.commit();
         } catch (HibernateException e) {
             if (tx!=null) tx.rollback();
-            e.printStackTrace();
+            log.error(e);
         } finally {
             session.close();
         }
-        return userWho;
+        return userId;
     }
 
 }

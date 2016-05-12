@@ -9,6 +9,8 @@
 
 <div class="container">
 
+    <a>${addMessage}</a>
+
     <div class="container">
         <h2 class="fancy-title">Please Enter Sign Up Information</h2>
     </div>

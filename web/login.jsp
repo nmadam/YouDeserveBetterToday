@@ -36,7 +36,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <input type="submit" id="login" class="btn btn-warning" value="Login"/>
-                </div>
+                    <a class="btn btn-danger" href="../index.jsp">Exit</a>
             </div>
         </div>
     </form>

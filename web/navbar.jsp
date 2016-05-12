@@ -16,8 +16,8 @@
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="viewMailingList.jsp">View Mailing List</a></li>
-                <li><a href="viewReviews.jsp">View Reviews</a></li>
+                <li><a href="viewMailingList">View Mailing List</a></li>
+                <li><a href="viewReviews">View Reviews</a></li>
                 <li><a href="/logoutUser"><span class="glyphicon glyphicon-log-out"></span>Logout</a></li>
 
             </ul>
