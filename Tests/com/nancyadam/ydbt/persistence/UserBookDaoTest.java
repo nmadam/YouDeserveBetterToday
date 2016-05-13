@@ -29,7 +29,6 @@ public class UserBookDaoTest {
 
     @Test
     public void testGetAllRatings() throws Exception {
-
         UserBookDao userBookDao = new UserBookDao();
         List<UserBook> userBooks = userBookDao.getAllRatings();
         assertTrue(userBooks.size() > 0);
@@ -59,7 +58,7 @@ public class UserBookDaoTest {
         userBookDao.deleteUserBook(userBook);
     }
 
-    
+
 
     @Test
     public void testDeleteUserBook() throws Exception {
