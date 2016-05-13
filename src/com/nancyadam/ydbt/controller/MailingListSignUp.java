@@ -3,6 +3,7 @@ package com.nancyadam.ydbt.controller;
 import com.nancyadam.ydbt.entity.User;
 import com.nancyadam.ydbt.persistence.UserDao;
 import com.nancyadam.ydbt.persistence.UserDaoWithHibernate;
+import org.apache.log4j.Logger;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletContext;
@@ -16,7 +17,10 @@ import java.io.IOException;
 import java.util.List;
 
 /**
- * Created by Student on 5/6/2016.
+ * Created by adamnancy on 5/6/2016.
+ * version 1.1
+ *
+ * Servlet that will list all of the users in the database viewed by the administrator only
  */
 
 @WebServlet(
@@ -25,6 +29,16 @@ import java.util.List;
 )
 
 public class MailingListSignUp extends HttpServlet {
+    private final Logger log = Logger.getLogger(this.getClass());
+
+    /**
+     * Handles HTTP GET requests.
+     *
+     *@param request                the HttpServletRequest object
+     *@param response               the HttpServletResponse object
+     *@exception ServletException   if there is a Servlet failure
+     *@exception IOException        if there is an IO failure
+     */
 
     public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
@@ -33,7 +47,7 @@ public class MailingListSignUp extends HttpServlet {
         HttpSession session = request.getSession();
         String addMessage = "";
 
-
+        //Retrieve the user-entered information from the form
         String username = request.getParameter("username");
         String userpass = request.getParameter("userpass");
         String firstname = request.getParameter("firstname");

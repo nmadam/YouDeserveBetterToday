@@ -17,6 +17,11 @@ import java.util.List;
 public class UserDaoWithHibernate implements UserDao {
     private final Logger log = Logger.getLogger(this.getClass());
 
+    /**
+     *
+     * @return users a list of all the users
+     *
+     */
     @Override
     public List<User> getAllUsers() {
         List<User> users = new ArrayList<User>();
@@ -27,6 +32,11 @@ public class UserDaoWithHibernate implements UserDao {
         return users;
     }
 
+    /**
+     *
+     * @param userId user Id of the user
+     * @return the user
+     */
     @Override
     public User selectUser(int userId) {
         User user = null;
@@ -46,6 +56,10 @@ public class UserDaoWithHibernate implements UserDao {
         return user;
     }
 
+    /**
+     *
+     * @param user to be deleted
+     */
     @Override
     public void deleteUser(User user) {
         Session session = SessionFactoryProvider1.getSessionFactory().openSession();
@@ -63,6 +77,11 @@ public class UserDaoWithHibernate implements UserDao {
         }
     }
 
+    /**
+     *
+     * @param user to be added
+     * @return userId
+     */
     @Override
     public int addUser(User user) {
 

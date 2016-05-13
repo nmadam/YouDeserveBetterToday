@@ -11,11 +11,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Student on 5/6/2016.
+ * Created by adamnancy on 5/6/2016.
+ *
+ * @version 1.1
+ *
+ * Dao that mataches user book table
  */
 public class UserBookDao {
     private final Logger log = Logger.getLogger(this.getClass());
 
+    /**
+     *
+     * @return userBooks a list of all user books
+     */
     public List<UserBook> getAllRatings() {
         List<UserBook> userBooks = new ArrayList<UserBook>();
 
@@ -25,6 +33,11 @@ public class UserBookDao {
         return userBooks;
     }
 
+    /**
+     *
+     * @param bookId the book id
+     * @return userBook the user book
+     */
     public UserBook selectUserBook(int bookId) {
         UserBook userBook = null;
         Session session = SessionFactoryProvider1.getSessionFactory().openSession();
@@ -44,6 +57,10 @@ public class UserBookDao {
         return userBook;
     }
 
+    /**
+     *
+     * @param userBook a list of your comments and ratings of a book
+     */
     public void deleteUserBook(UserBook userBook) {
         Session session = SessionFactoryProvider1.getSessionFactory().openSession();
         Transaction tx = null;
@@ -60,6 +77,10 @@ public class UserBookDao {
         }
     }
 
+    /**
+     *
+      * @param userBook a list of your comments and ratings of a book
+     */
     public void addUserBook(UserBook userBook) {
         Session session = SessionFactoryProvider1.getSessionFactory().openSession();
         Transaction tx = null;

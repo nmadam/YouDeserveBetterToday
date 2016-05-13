@@ -32,6 +32,15 @@ import java.io.IOException;
 public class Search extends HttpServlet {
     private final Logger log = Logger.getLogger(this.getClass());
 
+    /**
+     * Handles HTTP GET requests.
+     *
+     *@param request                the HttpServletRequest object
+     *@param response               the HttpServletResponse object
+     *@exception ServletException   if there is a Servlet failure
+     *@exception IOException        if there is an IO failure
+     */;
+
     public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
@@ -42,6 +51,7 @@ public class Search extends HttpServlet {
         String authorFirstName = request.getParameter("author_First_Name");
         String authorLastName = request.getParameter("author_Last_Name");
 
+        //Form validation
         if (authorFirstName.equals("") || (authorLastName.equals(""))){
             addErrorMessage = "Please try again!";
             session.setAttribute("addErrorMessage", addErrorMessage);

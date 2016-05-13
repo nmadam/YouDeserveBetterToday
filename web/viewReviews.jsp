@@ -25,7 +25,6 @@
                     <c:choose>
                         <c:when test="${book.bookId.equals(userBook.bookId)}">
                             <tr>
-                                <td>${book.bookId}</td>
                                 <td>${book.bookTitle}</td>
                                 <td>${book.bookAuthor}</td>
                                 <td>${userBook.rating}</td>

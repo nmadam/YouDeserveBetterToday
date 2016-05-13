@@ -15,9 +15,12 @@ import java.io.IOException;
         urlPatterns = { "/logoutUser" }
 )
 
-
 /**
- * Created by Student on 5/11/2016.
+ * Created by nancyadam on 5/11/2016.
+ *
+ * @version 1.1
+ *
+ * Servlet that will logout the user
  */
 public class LogoutUser extends HttpServlet {
     private final Logger log = Logger.getLogger(this.getClass());
