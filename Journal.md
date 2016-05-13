@@ -77,3 +77,9 @@ Tasks Completed:
     * Added Dao tests to individual project
 
 Stuggling with UsersDoaWithHibernateTest - NullPointer Exception on return of UserId in UsersDoaWithHibernate.java
+
+### Week 11-16
+
+5/12/16
+
+My computer crashed in April so I spent many hours fixing it and then eventually having to use the VMWare. I then spent a lot of time reseting up my environment in the VMWare. I then had to setup my environment for my individual project too. This caused me to have to log 55+ hours in the final week of school! I also really struggled with the tests during the final push of the project! So I decided to not push my project up to OpenShift.
