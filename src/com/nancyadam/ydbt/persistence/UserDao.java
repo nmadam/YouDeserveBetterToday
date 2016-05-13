@@ -18,10 +18,10 @@ public interface UserDao {
     public List<User> getAllUsers();
 
     /**
-     * Update a user
-     * @param user update user
+     * Select a user
+     * @param userId user Id of the user
      */
-    public void updateUser(User user);
+    public User selectUser(int userId);
 
     /**
      * Delete a user
