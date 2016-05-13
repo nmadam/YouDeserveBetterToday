@@ -1,5 +1,6 @@
 package com.nancyadam.ydbt.persistence;
 
+import com.nancyadam.ydbt.entity.User;
 import com.nancyadam.ydbt.entity.UserBook;
 import org.apache.log4j.Logger;
 import org.junit.After;
@@ -33,6 +34,32 @@ public class UserBookDaoTest {
         List<UserBook> userBooks = userBookDao.getAllRatings();
         assertTrue(userBooks.size() > 0);
     }
+
+    @Test
+    public void testSelectUserBook() {
+        UserBookDao userBookDao = new UserBookDao();
+
+        UserBook userBook = new UserBook();
+
+        userBook.setComment("This user book will be selected");
+        userBook.setRating("5 star");
+        userBook.setUserId(100);
+        userBook.setBookId(100);
+        userBookDao.addUserBook(userBook);
+
+        List<UserBook> userBookRatings = userBookDao.getAllRatings();
+
+        int numberOfBooks = 0;
+        for (UserBook userBookRating : userBookRatings) {
+            if (userBookRating.getBookId() == 100) {
+                numberOfBooks++;
+            }
+            assertTrue(numberOfBooks == 1);
+        }
+        userBookDao.deleteUserBook(userBook);
+    }
+
+    
 
     @Test
     public void testDeleteUserBook() throws Exception {

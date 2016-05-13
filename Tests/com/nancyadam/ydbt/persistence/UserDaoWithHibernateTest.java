@@ -35,6 +35,21 @@ public class UserDaoWithHibernateTest {
 
     @Test
     public void testSelectUser() throws Exception {
+        UserDaoWithHibernate userDaoWithHibernate = new UserDaoWithHibernate();
+
+        User user = new User();
+
+        user.setUserName("TestSelect");
+        user.setFirstName("TestSelectfirstname");
+        user.setLastName("TestSelectlastname");
+        user.setEmail("TestingSelect@gmail.com");
+        user.setUserPass("testselect");
+
+        int userId = userDaoWithHibernate.addUser(user);
+        user = userDaoWithHibernate.selectUser(userId);
+        assertTrue(user.getUserName().equals("TestSelect"));
+
+        userDaoWithHibernate.deleteUser(user);
 
     }
 

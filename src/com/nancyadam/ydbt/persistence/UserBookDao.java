@@ -75,7 +75,6 @@ public class UserBookDao {
         } finally {
             session.close();
         }
-
     }
 
 }
