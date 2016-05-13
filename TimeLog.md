@@ -116,6 +116,10 @@
 | 03/28/16 | Completed - EXERCISE: Multithreading exercise following the instructions in the readme of this repository | 1 | |
 | 03/31/16 | Deployed the Bookworms service to OpenShift with Savannah | .5 | |
 
+# Week 11-16
+| Date | Task | Hours | Notes|
+|------|------|-------|------|
+| 05/12/16 |  | My computer crashed in April so I spent many hours fixing it and then eventually having to use the VMWare. I then spent a lot of time reseting up my environment in the VMWare. I then had to setup my environment for my individual project too. This caused me to have to log 55+ hours in the final week of school! | |
 
 
 
